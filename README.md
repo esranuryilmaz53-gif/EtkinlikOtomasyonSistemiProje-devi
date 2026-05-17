@@ -6,3 +6,5 @@ Esranur Yılmaz -> Program.cs / User.cs / UserManager.cs / PresidentForm.cs / St
 
 Elif Beyza Yıldız ->  AdminForm.cs / Event.cs / EventManager.cs / Form1.cs
 
+
+Tasarımı birlikte planlayarak tasarladık.
