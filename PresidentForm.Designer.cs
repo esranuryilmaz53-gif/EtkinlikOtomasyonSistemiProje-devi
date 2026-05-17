@@ -28,7 +28,7 @@
             ((System.ComponentModel.ISupportInitialize)dgvKulupEtkinlikleri).BeginInit();
             SuspendLayout();
             // 
-            // dgvKulupEtkinlikleri
+            // 
             // 
             dgvKulupEtkinlikleri.BackgroundColor = Color.Linen;
             dgvKulupEtkinlikleri.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -39,7 +39,7 @@
             dgvKulupEtkinlikleri.Size = new Size(760, 290);
             dgvKulupEtkinlikleri.TabIndex = 0;
             // 
-            // btnCreate
+            // 
             // 
             btnCreate.Location = new Point(340, 20);
             btnCreate.Name = "btnCreate";
@@ -48,28 +48,28 @@
             btnCreate.Text = "Etkinlik Oluştur";
             btnCreate.UseVisualStyleBackColor = true;
             // 
-            // txtEventName
+            //
             // 
             txtEventName.Location = new Point(120, 20);
             txtEventName.Name = "txtEventName";
             txtEventName.Size = new Size(200, 27);
             txtEventName.TabIndex = 2;
             // 
-            // txtEventTime
+            //
             // 
             txtEventTime.Location = new Point(120, 60);
             txtEventTime.Name = "txtEventTime";
             txtEventTime.Size = new Size(200, 27);
             txtEventTime.TabIndex = 3;
             // 
-            // txtEventLocation
+            //
             // 
             txtEventLocation.Location = new Point(120, 100);
             txtEventLocation.Name = "txtEventLocation";
             txtEventLocation.Size = new Size(200, 27);
             txtEventLocation.TabIndex = 4;
             // 
-            // label1
+            //
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.RosyBrown;
@@ -79,7 +79,7 @@
             label1.TabIndex = 5;
             label1.Text = "Etkinlik Adı:";
             // 
-            // label2
+            //
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.RosyBrown;
@@ -89,7 +89,7 @@
             label2.TabIndex = 6;
             label2.Text = "Saat:";
             // 
-            // label3
+            //
             // 
             label3.AutoSize = true;
             label3.BackColor = Color.RosyBrown;
