@@ -99,7 +99,7 @@
             label3.TabIndex = 7;
             label3.Text = "Yer:";
             // 
-            // PresidentForm
+            // 
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
