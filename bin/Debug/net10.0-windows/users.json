@@ -1,0 +1,32 @@
+[
+  {
+    "Username": "EsranurY\u0131lmaz",
+    "Password": "esra123",
+    "Role": "Admin",
+    "ClubName": ""
+  },
+  {
+    "Username": "ElifBeyzaY\u0131ld\u0131z",
+    "Password": "elif123",
+    "Role": "Admin",
+    "ClubName": ""
+  },
+  {
+    "Username": "AhmetOgrenci",
+    "Password": "0000",
+    "Role": "Kul\u00FCp Ba\u015Fkan\u0131",
+    "ClubName": "Futbol"
+  },
+  {
+    "Username": "Ayse",
+    "Password": "1111",
+    "Role": "Kul\u00FCp Ba\u015Fkan\u0131",
+    "ClubName": "voleybol"
+  },
+  {
+    "Username": "SareY\u0131ld\u0131r\u0131m",
+    "Password": "1111",
+    "Role": "\u00D6\u011Frenci",
+    "ClubName": ""
+  }
+]

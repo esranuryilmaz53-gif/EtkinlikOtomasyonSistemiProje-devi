@@ -1,0 +1,57 @@
+[
+  {
+    "Id": 1,
+    "Name": "futbol ma\u00E7\u0131",
+    "Time": "13.00",
+    "Location": "\u0130m\u00FC g\u00FCney kamp\u00FCs",
+    "Organizer": "tiyatro",
+    "JoinedUsers": [
+      "Ay\u015Fe\u015Fahin",
+      "Ay\u015Fe"
+    ]
+  },
+  {
+    "Id": 2,
+    "Name": "futbol ma\u00E7\u0131",
+    "Time": "13.00",
+    "Location": "im\u00FC",
+    "Organizer": "futbol",
+    "JoinedUsers": [
+      "Ay\u015Fe"
+    ]
+  },
+  {
+    "Id": 3,
+    "Name": "Tiyatro oyunu",
+    "Time": "\u00E7ar\u015Famba 14.00",
+    "Location": "im\u00FC salonu",
+    "Organizer": "tiyatro",
+    "JoinedUsers": [
+      "AhmetOgrenci"
+    ]
+  },
+  {
+    "Id": 4,
+    "Name": "Voleybol ma\u00E7\u0131",
+    "Time": "per\u015Fembe 11.00",
+    "Location": "im\u00FC",
+    "Organizer": "Futbol",
+    "JoinedUsers": []
+  },
+  {
+    "Id": 5,
+    "Name": "Satran\u00E7 Turnuvas\u0131",
+    "Time": "15.30",
+    "Location": "\u0130m\u00FC kuzey kamp\u00FCs",
+    "Organizer": "Futbol",
+    "JoinedUsers": []
+  },
+  {
+    "Id": 6,
+    "Name": "Bahar \u015Eenli\u011Fi",
+    "Time": "11.00",
+    "Location": "\u0130m\u00FC G\u00FCney Kamp\u00FCs",
+    "Organizer": "voleybol",
+    "JoinedUsers": []
+  }
+]
