@@ -11,21 +11,41 @@ namespace EtkinlikOtomasyonSistemi
 
         public EventManager() { LoadEvents(); }
 
-        private void LoadEvents()
+       private void LoadEvents()
+{
+    try
+    {
+        
+        if (File.Exists(filePath))
         {
-            if (File.Exists(filePath))
-            {
-                string jsonString = File.ReadAllText(filePath);
-                Events = JsonSerializer.Deserialize<List<Event>>(jsonString) ?? new List<Event>();
-            }
-            else { Events = new List<Event>(); }
+            string jsonString = File.ReadAllText(filePath);
+            Events = JsonSerializer.Deserialize<List<Event>>(jsonString) ?? new List<Event>();
         }
+        else { Events = new List<Event>(); }
+    }
+    catch (Exception)
+    {
+        
+        MessageBox.Show("Geçmiş etkinlikler yüklenemedi, temiz bir sayfa açılıyor.");
+        Events = new List<Event>();
+    }
+}
 
-        public void SaveEvents()
-        {
-            string jsonString = JsonSerializer.Serialize(Events, new JsonSerializerOptions { WriteIndented = true });
-            File.WriteAllText(filePath, jsonString);
-        }
+
+public void SaveEvents()
+{
+    try
+    {
+       
+        string jsonString = JsonSerializer.Serialize(Events, new JsonSerializerOptions { WriteIndented = true });
+        File.WriteAllText(filePath, jsonString);
+    }
+    catch (Exception)
+    {
+        
+        MessageBox.Show("Bilgiler dosyaya kaydedilemedi! Lütfen bilgisayarınızda yer olduğundan emin olun.");
+    }
+}
 
         public void AddEvent(string name, string time, string location, string organizer)
         {
